@@ -1,0 +1,17 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+#test {
+	font-size: 50px;
+}
+#body1 {
+	background-color: black;
+}
+#body1 p {
+	color: white;
+}
