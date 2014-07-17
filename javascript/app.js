@@ -1,7 +1,10 @@
 // $('body').hide();
 $('li').css('display','none');
 var showHeader = function () {
-	$('li').slideDown(550);
+	$('li').first().fadeIn(550,function showNext() {
+	$( this ).next('li').fadeIn(550, showNext);
+	});
+	
 }
 
 showHeader();
